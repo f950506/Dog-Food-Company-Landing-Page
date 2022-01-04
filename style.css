@@ -1,4 +1,7 @@
-html {
+html,
+body {
+    margin: 0;
+    padding: 0;
     font-family: "Roboto";
 }
 
@@ -127,7 +130,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin: 160px 200px;
-    padding: 60px 120px;
+    padding: 48px 108px;
     border-radius: 12px;
     align-items: center;
 }
@@ -150,6 +153,8 @@ ul {
 }
 
 .footer {
+    font-size: 12px;
     text-align: center;
     color: #e5e7eb;
+    padding: 16px;
 }
